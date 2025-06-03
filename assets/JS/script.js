@@ -65,10 +65,10 @@ function checkAnswer() {
     let isCorrect = userAnswer === calculatedAnswer[0];
 
     if (isCorrect) {
-        alert("Hey! You got it right! :D");
+        alert("Hey! You got it right! I am... 👍🏾");
         incrementScore();
     } else {
-        alert(`Awwww.... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
+        alert(`Awwww.... you answered ${userAnswer} styopet. The correct answer was ${calculatedAnswer[0]}!`);
         incrementWrongAnswer();
     }
 

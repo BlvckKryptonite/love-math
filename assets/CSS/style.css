@@ -231,7 +231,7 @@ body {
         font-size: 2rem;
     }
 }
-
+/* Media query */
 @media (max-width: 320px) {
     .game-area {
         height: 70vh;
