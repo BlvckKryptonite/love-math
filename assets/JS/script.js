@@ -68,7 +68,7 @@ function checkAnswer() {
         alert("Hey! You got it right! I am... 👍🏾");
         incrementScore();
     } else {
-        alert(`Ahhh.... you answered ${userAnswer} styopet. The correct answer was ${calculatedAnswer[0]}!`);
+        alert(`Ahhh.... you answered ${userAnswer} styopet😂. The correct answer was ${calculatedAnswer[0]}!`);
         incrementWrongAnswer();
     }
 
