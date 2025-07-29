@@ -65,7 +65,7 @@ function checkAnswer() {
     let isCorrect = userAnswer === calculatedAnswer[0];
 
     if (isCorrect) {
-        alert(`Hey! You got it right! The correct answer is " ${calculateCorrectAnswer()}! 🎉`);
+        alert(`You got it right! The correct answer is ${calculateCorrectAnswer()}! 🎉`);
         incrementScore();
     } else {
         alert(`Uh oh🫤... You answered ${userAnswer} but the correct answer was ${calculatedAnswer[0]}. Please try again!`);
